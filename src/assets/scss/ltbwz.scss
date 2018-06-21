@@ -1,0 +1,269 @@
+.ltbwz {
+    @include clearfix;
+    .titleBar {
+        float: left;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .left_part1_l_top:hover {
+        background-color: rgba($color: #000000, $alpha: 0.2)
+    }
+    .left_part1_l_top {
+        float: left;
+        width: 145px;
+        height: 48px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        @include clearfix;
+        .left_part1_l_top_left {
+            width: 45px;
+            float: left;
+            height: inherit;
+            .bg_type1 {
+                background: url(../../assets/img/pm25.png)no-repeat center center;
+                width: 45px;
+                height: 48px;
+            }
+            .bg_type2 {
+                background: url(../../assets/img/icon7.png)no-repeat center center;
+                width: 45px;
+                height: 48px;
+            }
+            .bg_type3 {
+                background: url(../../assets/img/icon8.png)no-repeat center center;
+                width: 45px;
+                height: 48px;
+            }
+        }
+        .left_part1_l_top_right {
+            width: 97px;
+            float: right;
+            height: inherit;
+            .top {
+                font-size: 16px;
+                font-weight: bold;
+                text-align: left;
+                line-height: 26px;
+                color: #0b72e8;
+            }
+            .top2 {
+                font-size: 16px;
+                font-weight: bold;
+                text-align: left;
+                line-height: 26px;
+                color: #00dd8f;
+            }
+            .top3 {
+                font-size: 16px;
+                font-weight: bold;
+                text-align: left;
+                line-height: 26px;
+                color: #53d2ff;
+            }
+            .bottom {
+                margin-top: 2px;
+                font-size: 13px;
+                text-align: left;
+                line-height: 20px;
+            }
+        }
+    }
+    .left_part2 {
+        float: left;
+        width: 100%;
+        height: 206px;
+        margin-top: 5px;
+        overflow: hidden;
+        #itbwz_chart1 {
+            width: 100%;
+            height: 100%;
+        }
+        .subTitle {
+            float: left;
+            width: 100%;
+            font-size: 14px;
+            font-weight: bold;
+            color: #00e8ff;
+            margin-bottom: 3px;
+            cursor: pointer;
+            height: 14px;
+            clear: both;
+        }
+        span {
+            position: relative;
+            top: -200px;
+            left: 204px;
+            font-size: 12px;
+            padding: 2px 8px;
+            background: #1b8df4;
+            cursor: pointer;
+        }
+    }
+    .left_part3 {
+        float: left;
+        width: 100%;
+        margin-top: -3px;
+        @include clearfix;
+        .subTitle {
+            float: left;
+            width: 100%;
+            font-size: 14px;
+            font-weight: bold;
+            color: #00e8ff;
+            margin-bottom: 3px;
+            cursor: pointer;
+            height: 14px;
+            clear: both;
+            margin-bottom: 10px;
+        }
+        .paixu {
+            float: right;
+            width: 114px;
+            height: 22px;
+            line-height: 22px;
+            text-align: center;
+            font-size: 12px;
+            margin-top: -2px;
+            margin-bottom: 10px;
+        }
+        .table {
+            width: 308px;
+            height: 126px;
+            overflow: hidden;
+            .line {
+                height: 2px;
+                background: url(../../assets/img/line.png) no-repeat center center;
+            }
+            .div_row {
+                height: 29px;
+                line-height: 29px;
+                margin-left: 10px;
+                @include clearfix;
+                span {
+                    float: left;
+                    text-align: center;
+                }
+                span:nth-child(1) {
+                    width: 17%;
+                }
+                span:nth-child(2) {
+                    width: 22%;
+                }
+                span:nth-child(3) {
+                    width: 24%;
+                }
+                span:nth-child(4) {
+                    width: 27%;
+                }
+                span:nth-child(5) {
+                    width: 10%;
+                }
+            }
+        }
+        .table2 {
+            width: 308px;
+            height: 126px;
+            overflow: hidden;
+            .line {
+                height: 2px;
+                background: url(../../assets/img/line.png) no-repeat center center;
+            }
+            .div_row {
+                height: 29px;
+                line-height: 29px;
+                margin-left: 10px;
+                @include clearfix;
+                span {
+                    float: left;
+                    text-align: center;
+                }
+                span:nth-child(1) {
+                    width: 33%;
+                }
+                span:nth-child(2) {
+                    width: 33%;
+                }
+                span:nth-child(3) {
+                    width: 33%;
+                }
+            }
+        }
+    }
+    .right_top_1 {
+        width: 100%;
+        height: 100px;
+    }
+    .right_top_2 {
+        width: 100%;
+        height: 300px;
+    }
+    .right_top_3 {
+        width: 100%;
+        height: 155px;
+    }
+    .qingxkq {
+        position: absolute;
+        right: 18px;
+        top: 29%;
+        background-color: #0b72e8;
+        width: 69px;
+        height: 18px;
+        border-radius: 3px;
+        text-align: center;
+        line-height: 18px;
+        cursor: pointer;
+    }
+    .changeBUtton {
+        float: right;
+        width: 15px;
+        height: 15px;
+        background-color: #0b72e8;
+        border-radius: 20px;
+        text-align: center;
+        line-height: 15px;
+        margin-right: 8px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .changeBUtton2 {
+        float: right;
+        padding: 0 10px;
+        height: 20px;
+        margin-right: 62px;
+        background: url(../../assets/img/arrorw.png) no-repeat center center
+    }
+    .roated {
+        transform: rotate(180deg)
+    }
+    #ltbwz_lineChart1,
+    #ltbwz_3dbarChart2,
+    #ltbwz_lineChart2 {
+        width: 100%;
+        height: 100%;
+    }
+    .titleButton {
+        float: left;
+        width: 100%;
+        height: 20px;
+        ul {
+            float: right;
+            list-style-type: none;
+            li {
+                float: left;
+                margin-left: 10px;
+                padding: 3px;
+                border-radius: 1px;
+                cursor: pointer;
+            }
+            .type1 {
+                background-color: #52cefb;
+            }
+            .type2 {
+                background-color: #00dd8f;
+            }
+            .active{
+                border:1px dashed red
+            }
+        }
+    }
+}

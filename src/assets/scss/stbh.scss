@@ -1,0 +1,34 @@
+.stbh {
+    @include clearfix;
+    .inner {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        span {
+            position: relative;
+            top: -8px;
+            left: 10px;
+            font-size: 20px;
+            color: #18d3fe;
+            font-weight: 700;
+        }
+    }
+    .left {
+        .left_top {
+            height: 284px;
+            position: relative;
+        }
+        .left_bottom {
+            height: 345px;
+        }
+    }
+    .right {
+        .right_top {
+            height: 284px;
+        }
+        .right_bottom {
+            height: 345px;
+        }
+    }
+}

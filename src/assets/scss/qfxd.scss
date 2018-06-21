@@ -1,0 +1,151 @@
+.qfxd {
+    @include clearfix;
+    .btns {
+        float: right;
+        margin-top: 10px;
+        span {
+            padding: 2px 4px;
+            border-radius: 2px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .btn1 {
+            background: #00cf88;
+        }
+        .btn2 {
+            background: #0b72e8;
+        }
+    }
+    .left {
+        .main {
+            .part1 {
+                @include clearfix;
+                .part1_s {
+                    width: 50%;
+                    height: inherit;
+                    margin: 15px 0;
+                    img {
+                        float: left;
+                    }
+                    .txt {
+                        width: 113px;
+                        float: right;
+                        font-size: 10px;
+                        line-height: 17px;
+                        strong {
+                            font-size: 15px;
+                        }
+                        .color1 {
+                            color: #0b72e8;
+                        }
+                        .color2 {
+                            color: #00dd8f;
+                        }
+                    }
+                }
+                .part1_l {
+                    float: left;
+                }
+                .part1_r {
+                    float: right;
+                }
+            }
+            .part2 {
+                height: 273px;
+                @include clearfix;
+                #qfxdChart1 {
+                    height: 236px;
+                }
+            }
+            .part3 {
+                margin-top: 12px;
+                height: 254px;
+                @include clearfix;
+                #qfxdChart2 {
+                    height: 207px;
+                }
+            }
+        }
+    }
+    .middle {
+        .middle_bottom {
+            .main {
+                .inner {
+                    width: 100%;
+                    margin: 40px 0 0 5px;
+                    @include clearfix;
+                    .part_s {
+                        float: left;
+                        width: 33.3%;
+                        img {
+                            float: left;
+                        }
+                        .txt {
+                            width: 68%;
+                            float: left;
+                            margin-left: 20px;
+                            font-size: 10px;
+                            line-height: 17px;
+                            strong {
+                                font-size: 15px;
+                            }
+                            .color1 {
+                                color: #df5757;
+                            }
+                            .color2 {
+                                color: #ff6e3d;
+                            }
+                            .color3 {
+                                color: #00cf88;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .right {
+        .main {
+            .part1 {
+                @include clearfix;
+                .part_l {
+                    width: 50%;
+                    height: 36px;
+                    margin: 15px 0;
+                }
+                .part_s {
+                    img {
+                        float: left;
+                    }
+                    .txt {
+                        width: 115px;
+                        float: right;
+                        font-size: 10px;
+                        line-height: 17px;
+                        strong {
+                            font-size: 15px;
+                        }
+                        .color1 {
+                            color: #00dd8f;
+                        }
+                    }
+                }
+            }
+            .part2 {
+                height: 273px;
+                @include clearfix;
+                #qfxdChart3 {
+                    height: 250px;
+                }
+            }
+            .part3 {
+                margin-top: 12px;
+                height: 254px;
+                @include clearfix;
+                #qfxdChart4 {
+                    height: 230px;
+                }
+            }
+        }
+    }
+}

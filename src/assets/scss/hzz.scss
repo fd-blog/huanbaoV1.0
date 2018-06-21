@@ -1,0 +1,56 @@
+.hzz {
+    @include clearfix;
+    .inner {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        span {
+            position: relative;
+            top: -8px;
+            left: 10px;
+            font-size: 20px;
+            color: #18d3fe;
+            font-weight: 700;
+        }
+    }
+    .inner1 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 450px;
+        height: 100px;
+        ;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        img {
+            width: 80px;
+            height: 80px;
+            float: left;
+        }
+        span {
+            line-height: 80px;
+            font-size: 30px;
+            padding-left: 40px;
+            color: #18d3fe;
+            font-weight: 700;
+        }
+    }
+    .left {
+        .left_top {
+            height: 284px;
+            position: relative;
+        }
+        .left_bottom {
+            height: 345px;
+        }
+    }
+    .right {
+        .right_top {
+            height: 284px;
+        }
+        .right_bottom {
+            height: 345px;
+        }
+    }
+}

@@ -1,0 +1,180 @@
+.myContent {
+    width: 1366px;
+    height: 686px;
+    position: absolute;
+    top: 93px;
+    .wrapper {
+        width: 100%;
+        height: 654px;
+        padding: 0px 20px 20px;
+        box-sizing: border-box;
+        @include clearfix;
+        .title {
+            height: 18px;
+            line-height: 18px;
+            font-size: 16px;
+            color: #00f2f5;
+            font-weight: 700;
+            text-align: center;
+            cursor: pointer;
+            position: absolute;
+            left: 50%;
+            top: -10px;
+            padding: 0 20px;
+            transform: translate(-50%);
+            white-space: nowrap;
+            background-color: #26418f;
+            &:before {
+                content: "";
+                float: left;
+                width: 4px;
+                height: 18px;
+                background: url(../../assets/img/kh1.png);
+                position: absolute;
+                left: 0;
+            }
+            &:after {
+                content: "";
+                float: left;
+                width: 4px;
+                height: 18px;
+                background: url(../../assets/img/kh2.png);
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+        }
+        .subTitle {
+            color: #00f2f5;
+            font-weight: 700;
+            position: relative;
+            top: -2px;
+            left: 12px;
+            cursor: default;
+        }
+        .active {
+            color: #fff;
+        }
+        .subTitle1 {
+            cursor: pointer;
+        }
+        .subTitleText {
+            color: #fad027
+        }
+        .left {
+            width: 338px;
+            height: 645px;
+            float: left;
+            position: relative;
+            margin-top: 9px;
+            .left_top {
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: url(../../assets/img/left_top.png) no-repeat center center;
+                background-size: 100% 100%;
+            }
+            .left_bottom {
+                margin-top: 9px;
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                background: url(../../assets/img/left_bottom.png) no-repeat center center;
+                background-size: 100% 100%;
+            }
+        }
+        .right {
+            width: 338px;
+            height: 645px;
+            float: right;
+            position: relative;
+            margin-top: 9px;
+            .right_top {
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: url(../../assets/img/left_top.png) no-repeat center center;
+                background-size: 100% 100%;
+            }
+            .right_bottom {
+                width: 100%;
+                position: absolute;
+                margin-top: 9px;
+                bottom: 0;
+                left: 0;
+                background: url(../../assets/img/left_bottom.png) no-repeat center center;
+                background-size: 100% 100%;
+            }
+        }
+        .main {
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            padding: 19px 10px 10px;
+        }
+        .wrapper_left {
+            background: url(../../assets/img/left.png) no-repeat center center;
+            background-size: 100% 100%;
+        }
+        .wrapper_middle {
+            width: 611px;
+            height: 654px;
+            float: left;
+            margin: 2px 0 0 20px;
+            position: relative;
+            .wrapper_middle_top {
+                width: 100%;
+                height: 468px;
+                position: absolute;
+                margin-top: 9px;
+                top: 0;
+                left: 0;
+                background: url(../../assets/img/map.png) no-repeat center center;
+                background-size: 100% 100%;
+                box-sizing: border-box;
+                padding: 10px 10px 0 0;
+                overflow: hidden;
+                .map {
+                    width: 100%;
+                    height: 100%;
+                }
+                .lb {
+                    position: absolute;
+                    cursor: pointer;
+                    top: 15px;
+                    right: 10px;
+                    width: 30px;
+                    height: 30px;
+                    z-index: 999;
+                    border-radius: 50%;
+                    background-color: #27a1f6;
+                    background-position: 50% 50%;
+                    background-size: 100% 100%;
+                    background-repeat: no-repeat;
+                }
+                .start {
+                    background-image: url(../../../static/img/startEnd.gif);
+                }
+                .end {
+                    background-image: url(../../../static/img/endStart.gif)
+                }
+            }
+            .wrapper_middle_bottom {
+                width: 100%;
+                height: 153px;
+                position: absolute;
+                bottom: 1px;
+                left: 0;
+                background: url(../../assets/img/middle.png) no-repeat center center;
+                background-size: 100% 100%;
+            }
+        }
+        .wrapper_right {
+            background: url(../../assets/img/left.png) no-repeat center center;
+            background-size: 100% 100%;
+        }
+    }
+}

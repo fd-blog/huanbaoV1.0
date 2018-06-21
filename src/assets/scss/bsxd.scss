@@ -1,0 +1,129 @@
+.bsxd {
+    @include clearfix;
+    .left {
+        .left_top {
+            height: 418px;
+            .part1 {
+                .titleBox {
+                    margin-top: 14px;
+                    .leftTitle {
+                        float: left;
+                        color: #02f2f3;
+                        font-weight: 700;
+                    }
+                    .rightTitle {
+                        float: right;
+                        color: #02f2f3;
+                        font-weight: 700;
+                    }
+                }
+                .section {
+                    @include clearfix;
+                    .section_s {
+                        height: inherit;
+                        margin: 13px 0 0;
+                        img {
+                            float: left;
+                        }
+                        .txt2 {
+                            position: relative;
+                            top: 6px;
+                        }
+                        .txt {
+                            width: 96px;
+                            float: left;
+                            font-size: 10px;
+                            margin-left: 10px;
+                            line-height: 17px;
+                            strong {
+                                font-size: 15px;
+                            }
+                            .color1 {
+                                color: #0b72e8;
+                            }
+                            .color2 {
+                                color: #00dd8f;
+                            }
+                            .color3 {
+                                color: #2be5fa;
+                            }
+                        }
+                    }
+                    .section_l {
+                        float: left;
+                        width: 55%;
+                    }
+                    .section_r {
+                        float: right;
+                    }
+                }
+            }
+            .part2 {
+                margin-top: 10px;
+                #bsxdChart1 {
+                    height: 170px;
+                }
+            }
+        }
+        .left_bottom {
+            height: 207px;
+            #bsxdChart8 {
+                height: 170px;
+            }
+        }
+    }
+    .middle {
+        .middle_bottom {
+            .main {
+                @include clearfix;
+                .parts {
+                    height: 130px;
+                    float: left;
+                    .subTitle {
+                        left: 5px;
+                        font-size: 12px;
+                    }
+                }
+                .part1 {
+                    width: 30%;
+                    #bsxdChart2 {
+                        height: 115px;
+                    }
+                }
+                .part2 {
+                    width: 37%;
+                    #bsxdChart3 {
+                        height: 115px;
+                    }
+                }
+                .part3 {
+                    width: 33%;
+                    #bsxdChart4 {
+                        height: 115px;
+                    }
+                }
+            }
+        }
+    }
+    .right {
+        .part1 {
+            height: 140px;
+            #bsxdChart5 {
+                height: 95px;
+                margin: 15px 0;
+            }
+        }
+        .part2 {
+            height: 266px;
+            #bsxdChart6 {
+                height: 240px;
+            }
+        }
+        .part3 {
+            height: 213px;
+            #bsxdChart7 {
+                height: 195px;
+            }
+        }
+    }
+}
